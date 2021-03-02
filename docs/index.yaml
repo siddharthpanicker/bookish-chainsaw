@@ -2,12 +2,20 @@ apiVersion: v1
 entries:
   imply:
   - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-03-02T13:01:11.843923-08:00"
-    description: A Helm chart for Kubernetes
-    digest: 8891da48f3c8dabeec74a89e4f1997b5dd02546659ca29e535529de55a76ee9b
+    appVersion: "2021.02"
+    created: "2021-03-02T14:02:36.518504-08:00"
+    description: Imply Manager
+    digest: 1625015a315a3917ee1839e50dccf111e5f3b385968c64608a42768581a72f5d
+    home: https://imply.io
+    icon: https://static.imply.io/imply-arrow.svg
+    keywords:
+    - druid
+    - imply
+    maintainers:
+    - email: contact@imply.io
+      name: Imply
     name: imply
     urls:
-    - https://siddharthpanicker.github.io/bookish-chainsaw/imply-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-03-02T13:01:11.835459-08:00"
+    - https://siddharthpanicker.github.io/bookish-chainsaw/imply-0.4.11.tgz
+    version: 0.4.11
+generated: "2021-03-02T14:02:36.514635-08:00"
