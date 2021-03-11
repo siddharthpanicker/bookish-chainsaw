@@ -14,6 +14,7 @@ metadata:
   {{- end }}
   {{- if .Values.enableBackendConfig }}
     cloud.google.com/backend-config: '{"default": "{{ .Values.backendConfig.name }}"}'
+  {{- end }}
 spec:
   type: {{ .Values.manager.service.type }}
   {{- if .Values.manager.service.loadBalancerIP }}
