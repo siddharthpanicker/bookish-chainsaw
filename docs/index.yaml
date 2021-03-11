@@ -3,9 +3,9 @@ entries:
   imply:
   - apiVersion: v1
     appVersion: "2021.02"
-    created: "2021-03-02T14:02:36.518504-08:00"
+    created: "2021-03-11T11:49:48.40017-08:00"
     description: Imply Manager
-    digest: 1625015a315a3917ee1839e50dccf111e5f3b385968c64608a42768581a72f5d
+    digest: 02f955c43c5c9c3ae6e475839ab1c11208725b5bab90960dc8323db97065796b
     home: https://imply.io
     icon: https://static.imply.io/imply-arrow.svg
     keywords:
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://siddharthpanicker.github.io/bookish-chainsaw/imply-0.4.11.tgz
     version: 0.4.11
-generated: "2021-03-02T14:02:36.514635-08:00"
+generated: "2021-03-11T11:49:48.39265-08:00"

@@ -12,6 +12,9 @@ metadata:
   annotations:
 {{ toYaml . | indent 4 }}
   {{- end }}
+  {{- if .Values.enableBackendConfig }}
+    cloud.google.com/backend-config: '{"default": "{{ .Values.backendConfig.name }}"}'
+  {{- end }}
 spec:
   type: {{ .Values.manager.service.type }}
   {{- if .Values.manager.service.loadBalancerIP }}
